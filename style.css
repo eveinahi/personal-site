@@ -114,21 +114,18 @@ color: lightblue;
 
 .contact{
 background-color: rgb(0, 0, 0);
+font-size: 40px;
 text-align: center;
 padding: 15%;
 border-radius: 10px;
 }
 
-
  .contact-form{
 color: lightblue;
-
-
 }
 
 .second-form{
 color: lightblue;
-
 }
 
 
@@ -136,7 +133,15 @@ color: lightblue;
 
 .third-form{
 color: lightblue;
+}
+
+@media (max-width:400px) {
+.contact {
+max-width:100%;
+padding:10px;
+box-shadow: 0 0 12px -2px midnightblue;
+border-radius: 0%;
+}
 
 
 }
-
