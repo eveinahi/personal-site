@@ -107,6 +107,7 @@ h1,.project-header{
 }
 
 h1{
+    text-decoration: underline;
 color: lightblue;
 
 }
