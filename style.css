@@ -1,41 +1,107 @@
 html{
     background-color: midnightblue;
+    text-transform: uppercase;
     font-size: 30px;
     font-family: monospace;
 }
 
+h1{
+    display:block;
+
+}
+
 h2{
-margin-left: 76vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: rgb(62, 86, 119);
+    text-align: center;
 
 
 }
 p{
-    margin-left: 48vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
 }
 
 h3{
-margin-left: 60vh;
-
-
+    text-align: center;
 }
+
+
+
+
+
+
 img{
-margin-left: 70vh;
-height:40vh;
-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
 }
 
-nav{
+.main-nav{
 
-box-shadow: 0 0 12px -2px black;
-position: fixed;
-left: 0;
-right: 0;
-;
-background-color: midnightblue;
-color: rgb(59, 87, 148);
-display: flex;
-height: 80px;
-padding: 10px;
-display: flex;
-justify-content: space-between;
+    box-shadow: 0 0 12px -2px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: midnightblue;
+    color: rgb(59, 87, 148);
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.second-nav{
+    box-shadow: 0 0 12px -2px black;
+
+    margin-left: auto;
+    right: auto;
+    background-color: midnightblue;
+    color: rgb(59, 87, 148);
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.about-heading{
+    margin-top: 100px;
+}
+
+.about-img{
+    height:auto;
+    width: 30%;
+    display: grid;
+    justify-content: center;
+}
+
+.third-nav{
+    box-shadow: 0 0 12px -2px black;
+
+    margin-left: auto;
+    right: auto;
+    background-color: midnightblue;
+    color: rgb(59, 87, 148);
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.portfolio-img{
+    display: grid;
+    width: 30%;
+    height:auto;
+    justify-content: center;
+}
+
+h1,.project-header{
+    text-align: center;
+
 }
