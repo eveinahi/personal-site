@@ -1,0 +1,41 @@
+html{
+    background-color: midnightblue;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h2{
+margin-left: 76vh;
+
+
+}
+p{
+    margin-left: 48vh;
+}
+
+h3{
+margin-left: 60vh;
+
+
+}
+img{
+margin-left: 70vh;
+height:40vh;
+width: auto;
+}
+
+nav{
+
+box-shadow: 0 0 12px -2px black;
+position: fixed;
+left: 0;
+right: 0;
+;
+background-color: midnightblue;
+color: rgb(59, 87, 148);
+display: flex;
+height: 80px;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
