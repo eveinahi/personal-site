@@ -105,3 +105,37 @@ h1,.project-header{
     text-align: center;
 
 }
+
+h1{
+color: lightblue;
+
+}
+
+.contact{
+background-color: rgb(0, 0, 0);
+text-align: center;
+padding: 15%;
+border-radius: 10px;
+}
+
+
+ .contact-form{
+color: lightblue;
+
+
+}
+
+.second-form{
+color: lightblue;
+
+}
+
+
+
+
+.third-form{
+color: lightblue;
+
+
+}
+
