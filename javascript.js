@@ -9,3 +9,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   window.location.href = window.location.origin + '/success.html'
 })
+
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+}
