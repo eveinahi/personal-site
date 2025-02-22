@@ -14,7 +14,7 @@ html
       @media (max-width: 768px) {
         /* Styles for tablets and smaller screens */
         body {
-          font-size: 14px;
+          font-size: 70%;
           background-color: rgb(79, 74, 139);
         }
       }
@@ -35,7 +35,7 @@ h1{
 }
 
 h2{
-   width: 500px;
+   width: 90%;
    height:50px;
    margin-left: auto;
    margin-right: auto;
@@ -45,7 +45,7 @@ h2{
 }
 
 .box{
-    width: 800px;
+    width: 90%;
     padding: 20px;
     border:solid  black;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 50px;
+    font-size: 100%;
     padding: 50px;
 }
 
@@ -169,3 +169,6 @@ color: lightblue;
 color: lightblue;
 }
 
+#links >a{
+    color: rgb(99, 86, 134);
+}
